@@ -15,7 +15,7 @@ composer require naif/cpanel-mail
 ```
 
 ## Usage:
-Add the below to app/Providers/NovaServiceProvder.php
+Add the below to `app/Providers/NovaServiceProvider.php`
 
 ```php
   public function tools()
@@ -26,7 +26,7 @@ Add the below to app/Providers/NovaServiceProvder.php
   } 
 ```
 
-Add the below to your .env file
+Add the below to your `.env` file
 
 ```php
 CPANEL_DOMAIN=domain.com
@@ -35,6 +35,7 @@ CPANEL_PORT=2083
 CPANEL_USERNAME=user
 CPANEL_PASSWORD=password
 ```
+
 ## Screenshots
 
 <img src="https://raw.githubusercontent.com/naifalshaye/cpanel-mail/master/screenshots/add.png" width="800">
